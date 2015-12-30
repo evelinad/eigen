@@ -1,0 +1,7 @@
+-I/home/evelina/Downloads/eigen-eigen-b30b87236a1b
+-I/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build
+-I/usr/include/qt4
+-DNDEBUG
+-o
+/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/demos/mandelbrot/mandelbrot.moc
+/home/evelina/Downloads/eigen-eigen-b30b87236a1b/demos/mandelbrot/mandelbrot.h

@@ -1,0 +1,727 @@
+The system is: Linux - 3.19.0-15-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2998037831/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2998037831.dir/build.make CMakeFiles/cmTryCompileExec2998037831.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2998037831.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2998037831.dir/testCCompiler.c.o   -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2998037831
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2998037831.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2998037831.dir/testCCompiler.c.o  -o cmTryCompileExec2998037831 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1931822988/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1931822988.dir/build.make CMakeFiles/cmTryCompileExec1931822988.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1931822988
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1931822988.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1931822988 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.1.1-4ubuntu12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=c++11 --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.1.1 20150504 (Ubuntu 5.1.1-4ubuntu12) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1931822988' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgN8JoY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1931822988 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1931822988/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1931822988.dir/build.make CMakeFiles/cmTryCompileExec1931822988.dir/build]
+  ignore line: [make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1931822988]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1931822988.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1931822988 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.1.1-4ubuntu12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=c++11 --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.1.1 20150504 (Ubuntu 5.1.1-4ubuntu12) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1931822988' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgN8JoY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1931822988 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgN8JoY.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1931822988] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTryCompileExec1931822988.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec564998573/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec564998573.dir/build.make CMakeFiles/cmTryCompileExec564998573.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec564998573.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTryCompileExec564998573.dir/testCXXCompiler.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec564998573
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec564998573.dir/link.txt --verbose=1
+/usr/bin/g++        CMakeFiles/cmTryCompileExec564998573.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec564998573 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1701425563/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1701425563.dir/build.make CMakeFiles/cmTryCompileExec1701425563.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1701425563
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1701425563.dir/link.txt --verbose=1
+/usr/bin/g++      -v CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1701425563 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.4-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.4 (Ubuntu/Linaro 4.7.4-3ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1701425563' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1701425563 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1701425563/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1701425563.dir/build.make CMakeFiles/cmTryCompileExec1701425563.dir/build]
+  ignore line: [make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1701425563]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1701425563.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1701425563 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.4-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.4 (Ubuntu/Linaro 4.7.4-3ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1701425563' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1701425563 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1701425563] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec1701425563.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2454912419/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2454912419.dir/build.make CMakeFiles/cmTryCompileExec2454912419.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2454912419.dir/src.cxx.o
+/usr/bin/g++    -Dstandard_math_library_linked_to_automatically   -o CMakeFiles/cmTryCompileExec2454912419.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2454912419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2454912419.dir/link.txt --verbose=1
+/usr/bin/g++    -Dstandard_math_library_linked_to_automatically    CMakeFiles/cmTryCompileExec2454912419.dir/src.cxx.o  -o cmTryCompileExec2454912419 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<cmath>
+int main() { std::sin(0.0); std::log(0.0f); }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3760916598/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3760916598.dir/build.make CMakeFiles/cmTryCompileExec3760916598.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3760916598.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -DCOMPILER_SUPPORT_WERROR   -Werror -o CMakeFiles/cmTryCompileExec3760916598.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3760916598
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3760916598.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -DCOMPILER_SUPPORT_WERROR    CMakeFiles/cmTryCompileExec3760916598.dir/src.cxx.o  -o cmTryCompileExec3760916598 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1248890482/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1248890482.dir/build.make CMakeFiles/cmTryCompileExec1248890482.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1248890482.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -DCOMPILER_SUPPORT_pedantic -Werror   -pedantic -o CMakeFiles/cmTryCompileExec1248890482.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1248890482
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1248890482.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -DCOMPILER_SUPPORT_pedantic -Werror    CMakeFiles/cmTryCompileExec1248890482.dir/src.cxx.o  -o cmTryCompileExec1248890482 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3787938494/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3787938494.dir/build.make CMakeFiles/cmTryCompileExec3787938494.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3787938494.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -DCOMPILER_SUPPORT_Wall -Werror   -Wall -o CMakeFiles/cmTryCompileExec3787938494.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3787938494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3787938494.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -DCOMPILER_SUPPORT_Wall -Werror    CMakeFiles/cmTryCompileExec3787938494.dir/src.cxx.o  -o cmTryCompileExec3787938494 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1265026922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1265026922.dir/build.make CMakeFiles/cmTryCompileExec1265026922.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1265026922.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror   -Wextra -o CMakeFiles/cmTryCompileExec1265026922.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1265026922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1265026922.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror    CMakeFiles/cmTryCompileExec1265026922.dir/src.cxx.o  -o cmTryCompileExec1265026922 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2962662534/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2962662534.dir/build.make CMakeFiles/cmTryCompileExec2962662534.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2962662534.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror   -Wundef -o CMakeFiles/cmTryCompileExec2962662534.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2962662534
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2962662534.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror    CMakeFiles/cmTryCompileExec2962662534.dir/src.cxx.o  -o cmTryCompileExec2962662534 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec278144732/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec278144732.dir/build.make CMakeFiles/cmTryCompileExec278144732.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec278144732.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror   -Wcast-align -o CMakeFiles/cmTryCompileExec278144732.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec278144732
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec278144732.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror    CMakeFiles/cmTryCompileExec278144732.dir/src.cxx.o  -o cmTryCompileExec278144732 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec609631679/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec609631679.dir/build.make CMakeFiles/cmTryCompileExec609631679.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec609631679.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror   -Wchar-subscripts -o CMakeFiles/cmTryCompileExec609631679.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec609631679
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec609631679.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror    CMakeFiles/cmTryCompileExec609631679.dir/src.cxx.o  -o cmTryCompileExec609631679 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2085357095/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2085357095.dir/build.make CMakeFiles/cmTryCompileExec2085357095.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2085357095.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror   -Wnon-virtual-dtor -o CMakeFiles/cmTryCompileExec2085357095.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2085357095
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2085357095.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror    CMakeFiles/cmTryCompileExec2085357095.dir/src.cxx.o  -o cmTryCompileExec2085357095 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1185356654/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1185356654.dir/build.make CMakeFiles/cmTryCompileExec1185356654.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1185356654.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror   -Wunused-local-typedefs -o CMakeFiles/cmTryCompileExec1185356654.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1185356654
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1185356654.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror    CMakeFiles/cmTryCompileExec1185356654.dir/src.cxx.o  -o cmTryCompileExec1185356654 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2535963148/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2535963148.dir/build.make CMakeFiles/cmTryCompileExec2535963148.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2535963148.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror   -Wpointer-arith -o CMakeFiles/cmTryCompileExec2535963148.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2535963148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2535963148.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror    CMakeFiles/cmTryCompileExec2535963148.dir/src.cxx.o  -o cmTryCompileExec2535963148 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec926228277/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec926228277.dir/build.make CMakeFiles/cmTryCompileExec926228277.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec926228277.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror   -Wwrite-strings -o CMakeFiles/cmTryCompileExec926228277.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec926228277
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec926228277.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror    CMakeFiles/cmTryCompileExec926228277.dir/src.cxx.o  -o cmTryCompileExec926228277 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3138725081/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3138725081.dir/build.make CMakeFiles/cmTryCompileExec3138725081.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3138725081.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror   -Wformat-security -o CMakeFiles/cmTryCompileExec3138725081.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3138725081
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3138725081.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror    CMakeFiles/cmTryCompileExec3138725081.dir/src.cxx.o  -o cmTryCompileExec3138725081 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4023782726/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4023782726.dir/build.make CMakeFiles/cmTryCompileExec4023782726.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4023782726.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wnopsabi -Werror   -Wno-psabi -o CMakeFiles/cmTryCompileExec4023782726.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4023782726
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4023782726.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wnopsabi -Werror    CMakeFiles/cmTryCompileExec4023782726.dir/src.cxx.o  -o cmTryCompileExec4023782726 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4167332902/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4167332902.dir/build.make CMakeFiles/cmTryCompileExec4167332902.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4167332902.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror   -Wno-variadic-macros -o CMakeFiles/cmTryCompileExec4167332902.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4167332902
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4167332902.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror    CMakeFiles/cmTryCompileExec4167332902.dir/src.cxx.o  -o cmTryCompileExec4167332902 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1320399385/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1320399385.dir/build.make CMakeFiles/cmTryCompileExec1320399385.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1320399385.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror   -Wno-long-long -o CMakeFiles/cmTryCompileExec1320399385.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1320399385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1320399385.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror    CMakeFiles/cmTryCompileExec1320399385.dir/src.cxx.o  -o cmTryCompileExec1320399385 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1457971248/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1457971248.dir/build.make CMakeFiles/cmTryCompileExec1457971248.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1457971248.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror   -fno-check-new -o CMakeFiles/cmTryCompileExec1457971248.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1457971248
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1457971248.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror    CMakeFiles/cmTryCompileExec1457971248.dir/src.cxx.o  -o cmTryCompileExec1457971248 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1023892001/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1023892001.dir/build.make CMakeFiles/cmTryCompileExec1023892001.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1023892001.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror   -fno-common -o CMakeFiles/cmTryCompileExec1023892001.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1023892001
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1023892001.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror    CMakeFiles/cmTryCompileExec1023892001.dir/src.cxx.o  -o cmTryCompileExec1023892001 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3436376215/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3436376215.dir/build.make CMakeFiles/cmTryCompileExec3436376215.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3436376215.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror   -fstrict-aliasing -o CMakeFiles/cmTryCompileExec3436376215.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3436376215
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3436376215.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror    CMakeFiles/cmTryCompileExec3436376215.dir/src.cxx.o  -o cmTryCompileExec3436376215 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3128358243/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3128358243.dir/build.make CMakeFiles/cmTryCompileExec3128358243.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3128358243.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -Werror   -ansi -o CMakeFiles/cmTryCompileExec3128358243.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3128358243
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3128358243.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -Werror    CMakeFiles/cmTryCompileExec3128358243.dir/src.cxx.o  -o cmTryCompileExec3128358243 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeded with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2106151269/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2106151269.dir/build.make CMakeFiles/cmTryCompileExec2106151269.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2106151269.dir/src.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP   -fopenmp -o CMakeFiles/cmTryCompileExec2106151269.dir/src.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2106151269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2106151269.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP    CMakeFiles/cmTryCompileExec2106151269.dir/src.cxx.o  -o cmTryCompileExec2106151269 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2394216675/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2394216675.dir/build.make CMakeFiles/cmTryCompileExec2394216675.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2394216675.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1  -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2394216675.dir/CheckSymbolExists.cxx.o -c /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2394216675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2394216675.dir/link.txt --verbose=1
+/usr/bin/g++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1     CMakeFiles/cmTryCompileExec2394216675.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2394216675 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+File /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3083962406/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3083962406.dir/build.make CMakeFiles/cmTryCompileExec3083962406.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3083962406.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3083962406.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3083962406
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3083962406.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3083962406.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3083962406 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4021011360/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4021011360.dir/build.make CMakeFiles/cmTryCompileExec4021011360.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4021011360.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec4021011360.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4021011360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4021011360.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec4021011360.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4021011360 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1876465507/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1876465507.dir/build.make CMakeFiles/cmTryCompileExec1876465507.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1876465507.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1876465507.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1876465507
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1876465507.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1876465507.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1876465507 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec471523113/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec471523113.dir/build.make CMakeFiles/cmTryCompileExec471523113.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec471523113.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec471523113.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec471523113
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec471523113.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec471523113.dir/CheckFunctionExists.c.o  -o cmTryCompileExec471523113 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2023223556/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2023223556.dir/build.make CMakeFiles/cmTryCompileExec2023223556.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2023223556.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2023223556.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2023223556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2023223556.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2023223556.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2023223556 -rdynamic 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1260803494/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1260803494.dir/build.make CMakeFiles/cmTryCompileExec1260803494.dir/build
+make[1]: Entering directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1260803494.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec1260803494.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1260803494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1260803494.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec1260803494.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1260803494 -rdynamic -lICE 
+make[1]: Leaving directory '/home/evelina/Downloads/eigen-eigen-b30b87236a1b/build/CMakeFiles/CMakeTmp'
+
+
